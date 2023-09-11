@@ -46,8 +46,3 @@
 ##### 1.) Calculated the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 ##### 2.) Plotted the linear regression model on top of the previous scatter plot.
 ![matplotlib1](https://github.com/kmorrow439/matplotlib_challenge/assets/114371722/b0834f01-401f-4104-bdab-9ecf1d914fb9)
-
-
-# Analysis
-##### In the clinical study, 248 mice were tested by 10 different drug regimens. The bar chart shows that Capomulin and Ramicane regimens tested the highest with over 200 mice and Propriva tested the lowest with 150 mice. Out of 248 mice, by gender, 122 were female and 126 were males. The correlation between mouse weight and the average tumor volume is 0.84. In the linear regression model, the results show that when mouse weight increases, the average tumor volume increases. In the box plot, Capomulin and Ramicane tested very close, but Capomulin had the least final tumor volume of each mouse aftere the study was complete.   
-  
