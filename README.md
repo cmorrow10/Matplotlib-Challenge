@@ -18,11 +18,14 @@
 ---
 #### Created Bar Charts and Pie Charts
 ##### 1.) Generated two bar charts. Both charts are identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
-##### - Create the first bar chart with the Pandas "DataFrame.plot()" method.
-##### - Create the second bar chart with Matplotlib's "pyplot" methods.
+##### - Created the first bar chart with the Pandas "DataFrame.plot()" method.
+##### - Created the second bar chart with Matplotlib's "pyplot" methods.
+![matplotlib7](https://github.com/kmorrow439/matplotlib_challenge/assets/114371722/264be94f-efe0-4905-95fb-5f1059a790bb)
+
 ##### 2.) Generated two pie charts. Both charts are identical and show the distribution of female versus male mice in the study.
 ##### - Created the first pie chart with the Pandas "DataFrame.plot()" method.
 ##### - Created the second pie chart with Matplotlib's "pyplot" methods.
+![matplotlib2](https://github.com/kmorrow439/matplotlib_challenge/assets/114371722/317937b2-7a21-4db3-86f4-60dae308e269)
 ---
 #### Calculated Quartiles, Find Outliers, and created a Box Plot
 ##### 1.) Calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculated the quartiles and IQR, and determined if there was any potential outliers across all four treatment regimens.
@@ -31,17 +34,18 @@
 ##### - Looped through each drug in the treatment list, locating the rows in the merged DataFrame that corresponded to each treatment. Appended the resulting final tumor volumes for each drug to the empty list.
 ##### - Determined outliers by using the upper and lower bounds, and then printed the results.
 ##### 2.) Using Matplotlib, generated a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group.
+![matplotlib5](https://github.com/kmorrow439/matplotlib_challenge/assets/114371722/01553aec-ac01-4c8a-b06a-e9eb1383f898)
 ---
 #### Created a Line Plot and a Scatter Plot
 ##### 1.) Selected a single mouse that was treated with Capomulin, and generated a line plot of tumor volume versus time point for that mouse.
+![matplotlib4](https://github.com/kmorrow439/matplotlib_challenge/assets/114371722/d0bf9e0a-db4b-4b3e-8c22-4e1c8b41b0bd)
 ##### 2.) Generated a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+![matplotlib3](https://github.com/kmorrow439/matplotlib_challenge/assets/114371722/7fbba916-8723-4690-a991-1b332ec4682b)
 ---
 #### Calculated Correlation and Regression
 ##### 1.) Calculated the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 ##### 2.) Plotted the linear regression model on top of the previous scatter plot.
-
-
-
+![matplotlib1](https://github.com/kmorrow439/matplotlib_challenge/assets/114371722/b0834f01-401f-4104-bdab-9ecf1d914fb9)
 
 
 # Analysis
